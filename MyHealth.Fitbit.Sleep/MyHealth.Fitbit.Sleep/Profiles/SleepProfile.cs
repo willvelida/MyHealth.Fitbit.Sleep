@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using MyHealth.Fitbit.Sleep.Models;
+using System.Diagnostics.CodeAnalysis;
 using mdl = MyHealth.Common.Models;
 
 namespace MyHealth.Fitbit.Sleep.Profiles
 {
+    [ExcludeFromCodeCoverage]
     public class SleepProfile : Profile
     {
         public SleepProfile()

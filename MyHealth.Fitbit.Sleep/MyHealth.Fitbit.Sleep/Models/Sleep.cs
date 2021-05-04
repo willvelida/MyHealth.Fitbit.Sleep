@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 
 namespace MyHealth.Fitbit.Sleep.Models
 {
+    [ExcludeFromCodeCoverage]
     public class Sleep
     {
         public int awakeCount { get; set; }

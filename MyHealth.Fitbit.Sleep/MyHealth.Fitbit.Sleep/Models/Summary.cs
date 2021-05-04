@@ -1,5 +1,8 @@
-﻿namespace MyHealth.Fitbit.Sleep.Models
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace MyHealth.Fitbit.Sleep.Models
 {
+    [ExcludeFromCodeCoverage]
     public class Summary
     {
         public Stages stages { get; set; }
