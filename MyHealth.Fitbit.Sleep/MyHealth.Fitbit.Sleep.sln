@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHealth.Fitbit.Sleep", "MyHealth.Fitbit.Sleep\MyHealth.Fitbit.Sleep.csproj", "{525035E8-D870-4EFA-8FDE-FAE78DEB9E5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHealth.Fitbit.Sleep.UnitTests", "MyHealth.Fitbit.Sleep.UnitTests\MyHealth.Fitbit.Sleep.UnitTests.csproj", "{B23FA929-A133-4B21-8087-90D1E0914921}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{525035E8-D870-4EFA-8FDE-FAE78DEB9E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525035E8-D870-4EFA-8FDE-FAE78DEB9E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525035E8-D870-4EFA-8FDE-FAE78DEB9E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525035E8-D870-4EFA-8FDE-FAE78DEB9E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23FA929-A133-4B21-8087-90D1E0914921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23FA929-A133-4B21-8087-90D1E0914921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23FA929-A133-4B21-8087-90D1E0914921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23FA929-A133-4B21-8087-90D1E0914921}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDFE013F-5B4E-48BC-9330-D8886131C766}
+	EndGlobalSection
+EndGlobal
